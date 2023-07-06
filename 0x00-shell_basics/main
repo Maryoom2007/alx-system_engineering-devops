@@ -1,9 +1,5 @@
 #!/bin/bash
-
-echo 'input file name'
-read vrb
-
-chmod +x ${vrb}
-
-echo '#!/bin/bash' > ${vrb}
+read var
+chmod +x ${var}
+echo '#!/bin/bash' > ${var}
 
